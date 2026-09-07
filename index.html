@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Youssef Mohamed - Front-End Developer Portfolio">
+  <title>Youssef Mohamed | Front-End Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a class="logo" href="#home">
+    <span>YM</span>
+  </a>
+
+  <button class="menu-toggle" aria-label="فتح القائمة" aria-expanded="false">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <nav class="nav-links">
+    <a class="active" href="#home">الرئيسية</a>
+    <a href="#about">عني</a>
+    <a href="#skills">المهارات</a>
+    <a href="#projects">المشاريع</a>
+    <a href="#experience">الخبرة</a>
+    <a href="#contact">تواصل معي</a>
+  </nav>
+
+  <a class="cv-btn" href="#" onclick="downloadCV(event)">
+    تحميل السيرة الذاتية <i class="fa-solid fa-download"></i>
+  </a>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="stars"></div>
+  <div class="nebula"></div>
+
+  <div class="planet planet-one"></div>
+  <div class="planet planet-two"></div>
+
+  <div class="hero-grid">
+
+    <div class="hero-copy">
+      <span class="hello">مرحباً، أنا</span>
+
+      <h1>يوسف محمد</h1>
+
+      <h2>مطور واجهات ومواقع ويب</h2>
+
+      <p>
+        أحوّل الأفكار إلى تجارب رقمية عصرية وسريعة.
+        أكتب الكود بشغف وأهتم بالتفاصيل لأصنع مواقع حقيقية
+        سهلة الاستخدام ومتجاوبة مع جميع الأجهزة.
+      </p>
+
+      <div class="socials">
+        <a href="https://github.com/" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#contact" class="gold-btn">
+          تواصل معي <i class="fa-regular fa-paper-plane"></i>
+        </a>
+
+        <a href="#projects" class="dark-btn">
+          شاهد مشاريعي <i class="fa-regular fa-eye"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="astronaut">
+        <div class="astronaut-glow"></div>
+             
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero-stats">
+    <div>
+      <i class="fa-solid fa-rocket"></i>
+      <strong>3+</strong>
+      <span>مشروع مكتمل</span>
+    </div>
+    <div>
+      <i class="fa-solid fa-code"></i>
+      <strong>1+</strong>
+      <span>سنوات خبرة</span>
+    </div>
+    <div>
+      <i class="fa-regular fa-star"></i>
+      <strong>98%</strong>
+      <span>رضا العملاء</span>
+    </div>
+    <div>
+      <i class="fa-solid fa-trophy"></i>
+      <strong>500+</strong>
+      <span>ساعة برمجة</span>
+    </div>
+  </div>
+</section>
+
+<section class="section projects-section" id="projects">
+  <div class="section-title">
+    <span>✦ أحدث أعمالي</span>
+    <h2>مشاريعي</h2>
+    <p>مجموعة من المشاريع التي عملت عليها وطورتها بنفسي.</p>
+  </div>
+
+  <div class="projects-grid">
+
+    <article class="project-card">
+      <div class="project-image">
+        <img src="Screenshot 2026-09-06 111618.png"
+             alt="Weather application">
+        <span>Landing Page</span>
+      </div>
+
+      <div class="project-content">
+        <h3>technova space landing</h3>
+        <p>
+         Landing Page عصرية لمنتج رقمي مع تصميم متجاوب
+          وتجربة استخدام بسيطة وواضحة.
+        </p>
+
+        <div class="tech">
+          <b>HTML</b>
+          <b>CSS</b>
+          <b>Responsive</b>
+          <b>UI/UX</b>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/132yussef" target="_blank">
+            GitHub <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://132yussef.github.io/technova_space_landing/" target="_blank">
+            عرض المشروع <i class="fa-regular fa-eye"></i>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-image">
+        <img src="Screenshot 2026-09-06 110126.png"
+             alt="Landing page">
+        <span>Landing Page</span>
+      </div>
+
+      <div class="project-content">
+        <h3>perfume luxury landing</h3>
+        <p>
+          Landing Page عصرية لمنتج رقمي مع تصميم متجاوب
+          وتجربة استخدام بسيطة وواضحة.
+        </p>
+
+        <div class="tech">
+          <b>HTML</b>
+          <b>CSS</b>
+          <b>Responsive</b>
+          <b>UI/UX</b>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/132yussef" target="_blank">
+            GitHub <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://132yussef.github.io/perfume_luxury_landing/" target="_blank">
+            عرض المشروع <i class="fa-regular fa-eye"></i>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-image">
+        <img src="Screenshot 2026-09-07 093930.png"
+             alt="Dashboard">
+        <span>Landing Page</span>
+      </div>
+
+      <div class="project-content">
+        <h3>NOVA — Creative Digital Studio</h3>
+        <p>
+         صفحة هبوط لاستوديو رقمي جريء، تجمع بين واجهة مستخدم عصرية، ورسوميات متحركة متقدمة بتقنية CSS، وتأثيرات تفاعلية بلغة JavaScript، وتصميم متجاوب.
+        </p>
+
+        <div class="tech">
+          <b>HTML</b>
+          <b>CSS</b>
+          <b>JavaScript</b>
+          
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/132yussef" target="_blank">
+            GitHub <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://132yussef.github.io/NOVA-Creative-Digital-Studio/" target="_blank">
+            عرض المشروع <i class="fa-regular fa-eye"></i>
+          </a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <a class="more-projects" href="https://github.com/" target="_blank">
+    عرض جميع المشاريع <i class="fa-solid fa-arrow-left"></i>
+  </a>
+</section>
+
+<section class="section skills-section" id="skills">
+  <div class="section-title">
+    <span>✦ ما أجيده</span>
+    <h2>مهاراتي</h2>
+    <p>التقنيات والأدوات التي أستخدمها في بناء مشاريعي.</p>
+  </div>
+
+  <div class="skills-layout">
+
+    <div class="skills-list">
+      <div class="skill">
+        <div><span>HTML / CSS</span><b>95%</b></div>
+        <div class="progress"><span style="width:95%"></span></div>
+      </div>
+
+      <div class="skill">
+        <div><span>JavaScript</span><b>90%</b></div>
+        <div class="progress"><span style="width:90%"></span></div>
+      </div>
+
+      <div class="skill">
+        <div><span>Responsive Design</span><b>90%</b></div>
+        <div class="progress"><span style="width:90%"></span></div>
+      </div>
+
+      <div class="skill">
+        <div><span>React.js</span><b>80%</b></div>
+        <div class="progress"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill">
+        <div><span>UI / UX Design</span><b>85%</b></div>
+        <div class="progress"><span style="width:85%"></span></div>
+      </div>
+    </div>
+
+    <div class="tools-card">
+      <h3>أدوات أستخدمها</h3>
+
+      <div class="tools">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-git-alt"></i>
+        <i class="fa-brands fa-figma"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-react"></i>
+        <i class="fa-brands fa-node-js"></i>
+        <i class="fa-brands fa-npm"></i>
+        <i class="fa-solid fa-code"></i>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="about-section section" id="about">
+  <div class="about-card">
+    <div class="about-orbit"></div>
+
+    <div class="about-content">
+      <span>✦ عني</span>
+      <h2>أبني مواقع تجعل الأفكار<br>تأخذ شكلها الحقيقي.</h2>
+      <p>
+        أنا يوسف محمد، مطور واجهات ومواقع ويب مهتم ببناء تجارب رقمية
+        سريعة، منظمة وجذابة. أحب تعلم التقنيات الجديدة وتحويل الأفكار
+        إلى مشاريع عملية يمكن استخدامها فعلياً.
+      </p>
+      <p>
+        أركز حالياً على تطوير مهاراتي في JavaScript وبناء مشاريع حقيقية
+        تساعدني على التطور كمطور Front-End.
+      </p>
+    </div>
+
+    <div class="about-planet">
+      <div></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="contact-card">
+    <div>
+      <span>✦ جاهز لمشروع جديد؟</span>
+      <h2>خلينا نبني حاجة<br><strong>استثنائية مع بعض.</strong></h2>
+      <p>لو عندك فكرة أو مشروع، ابعتلي وأنا هكون سعيد أسمع التفاصيل.</p>
+    </div>
+
+    <a class="gold-btn" href="https://wa.me/201098148723?utm_source=chatgpt.com">
+      ابدأ محادثة <i class="fa-regular fa-paper-plane"></i>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-content">
+    <a class="logo" href="#home"><span>YM</span></a>
+    <p>© 2026 Youssef Mohamed — جميع الحقوق محفوظة.</p>
+
+    <div class="footer-socials">
+      <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+<div class="back-top" id="backTop">
+  <i class="fa-solid fa-arrow-up"></i>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
